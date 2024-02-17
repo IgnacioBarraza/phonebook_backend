@@ -1,0 +1,29 @@
+{
+  "name": "phonebook_backend",
+  "version": "0.0.1",
+  "description": "Backend for phonebook, Full Stack Open course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgnacioBarraza/phonebook_backend.git"
+  },
+  "author": "IgnacioBarraza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IgnacioBarraza/phonebook_backend/issues"
+  },
+  "homepage": "https://github.com/IgnacioBarraza/phonebook_backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
